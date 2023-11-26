@@ -7,6 +7,7 @@ const Universidad = require('../models/universidad');
 
 //crear proyecto
 const createProyecto = async (req = request, res = response) => {
+    console.log('calling getProyectos')
     try {
         const {
             numero,
